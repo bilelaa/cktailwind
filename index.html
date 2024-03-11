@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+<header>
+<!-- navbar -->
+<!-- Main navigation container -->
+<nav
+class="relative flex w-full flex-nowrap items-center justify-between bg-[blue] py-2 shadow-dark-mild lg:flex-wrap lg:justify-start lg:py-4"
+data-twe-navbar-ref>
+<div class="flex w-full flex-wrap items-center justify-between px-3">
+  <div class="mx-2">
+    <a class="text-xl text-neutral-100" href="#">MY PROJECTS</a>
+  </div>
+  <!-- Hamburger button for mobile view -->
+  <button
+    class="block border-0 bg-transparent px-2 text-neutral-300 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+    type="button"
+    data-twe-collapse-init
+    data-twe-target="#navbarSupportedContent10"
+    aria-controls="navbarSupportedContent10"
+    aria-expanded="false"
+    aria-label="Toggle navigation">
+    <!-- Hamburger icon -->
+    <span
+      class="[&>svg]:w-7 [&>svg]:stroke-black/50 dark:[&>svg]:stroke-neutral-200">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor">
+        <path
+          fill-rule="evenodd"
+          d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+          clip-rule="evenodd" />
+      </svg>
+    </span>
+  </button>
+
+  <!-- Collapsible navbar container -->
+  <div
+    class="!visible mt-2 hidden flex-grow basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto"
+    id="navbarSupportedContent10"
+    data-twe-collapse-item>
+    <!-- Left links -->
+    <ul
+      class="list-style-none me-auto flex flex-col ps-0 lg:mt-1 lg:flex-row"
+      data-twe-navbar-nav-ref>
+      <!-- Home link -->
+      <li
+        class="my-4 ps-2 lg:my-0 lg:pe-1 lg:ps-2"
+        data-twe-nav-item-ref>
+        <a
+          class="text-neutral-300 transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 active:text-black/80 motion-reduce:transition-none lg:px-2"
+          aria-current="page"
+          href="#"
+          data-twe-nav-link-ref
+          >Home</a
+        >
+      </li>
+      <!-- Features link -->
+      <li
+        class="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0"
+        data-twe-nav-item-ref>
+        <a
+          class="p-0 text-neutral-300 transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 active:text-black/80 motion-reduce:transition-none lg:px-2"
+          href="#"
+          data-twe-nav-link-ref
+          >Projects</a
+        >
+      </li>
+      <!-- Pricing link -->
+      <li
+        class="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0"
+        data-twe-nav-item-ref>
+        <a
+          class="p-0 text-neutral-300 transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 active:text-black/80 motion-reduce:transition-none lg:px-2"
+          href="#"
+          data-twe-nav-link-ref
+          >Contact</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+</header>
+<!-- hero section  -->
+<section>
+<div class="relative flex flex-col items-center max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8 justify-center ">
+    <div class="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10">
+        <div class="text-left">
+            <h2
+                class="text-4xl font-extrabold leading-10 tracking-tight text-gray-800 sm:text-5xl sm:leading-none md:text-6xl">
+                MY
+                <span class="font-bold text-blue-500">PORTFOLIO</span>
+            </h2>
+            <p class="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                Hi, I'm Bilel, a passionate 21-year-old developer. I am enthusiastic about web development and love creating innovative solutions.
+            </p>
+            <div class="mt-5 sm:flex md:mt-8">
+                <div class="rounded-md shadow"><a href=""
+                        class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-500 border border-transparent rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+                        contact
+                    </a></div>
+                <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+                    <a href=""
+                        class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-blue-500 transition duration-150 ease-in-out bg-white border border-transparent rounded-md hover:text-blue-600 focus:outline-none focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+                        PROJECTS
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- skills section  -->
+    <section>
+    <div class="max-w-xl mx-auto p-4 mt-16">
+
+        <!-- To achieve the desired progress, you can update the 'stroke-dasharray' property. -->
+    
+        <h4 class="text-3xl md:text-5xl dark:text-white font-bold mb-6">Skills</h4>
+    
+        <div class="mb-7">
+            <div class="flex justify-between py-1">
+                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Web Design</span>
+                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">80%</span>
+            </div>
+            <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                <path class="rc-progress-line-trail" d="M 0.5,0.5
+             L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                <path class="rc-progress-line-path" d="M 0.5,0.5
+             L 99.5,0.5" stroke-linecap="round" stroke="#FF6464" stroke-width="1" fill-opacity="0"
+                    style="stroke-dasharray: 79.2px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                </path>
+            </svg>
+        </div>
+    
+    
+        <div class="mb-7">
+            <div class="flex justify-between py-1">
+                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Mobile App </span>
+                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">95%</span>
+            </div>
+            <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                <path class="rc-progress-line-trail" d="M 0.5,0.5
+             L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                <path class="rc-progress-line-path" d="M 0.5,0.5
+             L 99.5,0.5" stroke-linecap="round" stroke="#9272D4" stroke-width="1" fill-opacity="0"
+                    style="stroke-dasharray: 94.05px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                </path>
+            </svg>
+        </div>
+    
+    
+        <div class="mb-7">
+            <div class="flex justify-between py-1">
+                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Marketing</span>
+                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">65%</span>
+            </div>
+            <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                <path class="rc-progress-line-trail" d="M 0.5,0.5
+             L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                <path class="rc-progress-line-path" d="M 0.5,0.5
+             L 99.5,0.5" stroke-linecap="round" stroke="#5185D4" stroke-width="1" fill-opacity="0"
+                    style="stroke-dasharray: 64.35px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                </path>
+            </svg>
+        </div>
+    
+    
+        <div class="mb-7">
+            <div class="flex justify-between py-1">
+                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Photoshope</span>
+                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">75%</span>
+            </div>
+            <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                <path class="rc-progress-line-trail" d="M 0.5,0.5
+             L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                <path class="rc-progress-line-path" d="M 0.5,0.5
+             L 99.5,0.5" stroke-linecap="round" stroke="#CA56F2" stroke-width="1" fill-opacity="0"
+                    style="stroke-dasharray: 74.25px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                </path>
+            </svg>
+        </div>
+    
+    </div>
+</section>
+<!-- project section  -->
+<section>
+    <!-- Container for demo purpose -->
+<div class="container my-24 mx-auto md:px-6">
+    <!-- Section: Design Block -->
+    <section class="mb-32 text-center">
+      <h2 class="mb-12 pb-4 text-center text-3xl font-bold">
+        Projects we are proud of
+      </h2>
+  
+      <div class="grid gap-6 lg:grid-cols-3 xl:gap-x-12">
+        <div class="mb-6 lg:mb-0">
+          <div class="relative block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+            <div class="flex">
+              <div class="relative mx-4 -mt-4 w-full overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
+                data-te-ripple-init data-te-ripple-color="light">
+                <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/002.webp" class="w-full" />
+                <a href="#!">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+                </a>
+              </div>
+            </div>
+            <div class="p-6">
+              <h5 class="mb-4 text-lg font-bold">White city</h5>
+              <p class="mb-6">
+                Ut pretium ultricies dignissim. Sed sit amet mi eget urna
+                placerat vulputate. Ut vulputate est non quam dignissim
+                elementum. Donec a ullamcorper diam.
+              </p>
+              <a href="#!" data-te-ripple-init data-te-ripple-color="light"
+                class="inline-block rounded-full bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Read
+                more</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="mb-6 lg:mb-0">
+          <div class="relative block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+            <div class="flex">
+              <div class="relative mx-4 -mt-4 w-full overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
+                data-te-ripple-init data-te-ripple-color="light">
+                <img src="https://mdbcdn.b-cdn.net/img/new/standard/people/066.webp" class="w-full" />
+                <a href="#!">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+                </a>
+              </div>
+            </div>
+            <div class="p-6">
+              <h5 class="mb-4 text-lg font-bold">A lonely bench</h5>
+              <p class="mb-6">
+                Suspendisse in volutpat massa. Nulla facilisi. Sed aliquet
+                diam orci, nec ornare metus semper sed. Integer volutpat
+                ornare erat sit amet rutrum.
+              </p>
+              <a href="#!" data-te-ripple-init data-te-ripple-color="light"
+                class="inline-block rounded-full bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Read
+                more</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="mb-0">
+          <div class="relative block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+            <div class="flex">
+              <div class="relative mx-4 -mt-4 w-full overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
+                data-te-ripple-init data-te-ripple-color="light">
+                <img src="https://mdbcdn.b-cdn.net/img/new/standard/people/191.webp" class="w-full" />
+                <a href="#!">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+                </a>
+              </div>
+            </div>
+            <div class="p-6">
+              <h5 class="mb-4 text-lg font-bold">Happy snow</h5>
+              <p class="mb-6">
+                Curabitur tristique, mi a mollis sagittis, metus felis mattis
+                arcu, non vehicula nisl dui quis diam. Mauris ut risus eget
+                massa volutpat feugiat. Donec.
+              </p>
+              <a href="#!" data-te-ripple-init data-te-ripple-color="light"
+                class="inline-block rounded-full bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Read
+                more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Design Block -->
+  </div>
+  <!-- Container for demo purpose -->
+</section>
+<!-- from -->
+<section>
+
+<form class="w-full max-w-lg">
+    <div class="flex flex-wrap -mx-3 mb-6">
+      <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+          First Name
+        </label>
+        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
+        <p class="text-red-500 text-xs italic">Please fill out this field.</p>
+      </div>
+      <div class="w-full md:w-1/2 px-3">
+        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+          Last Name
+        </label>
+        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
+      </div>
+    </div>
+    <div class="flex flex-wrap -mx-3 mb-6">
+      <div class="w-full px-3">
+        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+          Password
+        </label>
+        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="password" placeholder="******************">
+        <p class="text-gray-600 text-xs italic">Make it as long and as crazy as you'd like</p>
+      </div>
+    </div>
+    <div class="flex flex-wrap -mx-3 mb-2">
+      <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
+          City
+        </label>
+        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder="Albuquerque">
+      </div>
+      <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
+          State
+        </label>
+        <div class="relative">
+          <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+            <option>Tunis</option>
+            <option>Ben arous</option>
+            <option>Mannouba</option>
+          </select>
+          <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  </section>
+  </body>
+  </html>
